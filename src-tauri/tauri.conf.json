@@ -64,7 +64,7 @@
     "updater": {
       "active": true,
       "endpoints": [
-        "http://127.0.0.1:3000/dingdang_update/{{target}}/{{arch}}/{{current_version}}"
+        "https://rt.q69.info/dingdang_update/{{target}}/{{arch}}/{{current_version}}"
       ],
       "dialog": true,
       "pubkey": "dW50cnVzdGVkIGNvbW1lbnQ6IG1pbmlzaWduIHB1YmxpYyBrZXk6IEQ3MEI0NjMxNzk4OUREMkYKUldRdjNZbDVNVVlMMXp0SnFpbTc4Uy9lTlhxUUh4RjlPRGN5NXZGVEJRYmlFNm4xYXg2SS9PZzIK",
