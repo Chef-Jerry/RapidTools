@@ -1,0 +1,23 @@
+{
+    "version": "v0.6.8",
+    "notes": "新增二维码功能",
+    "pub_date": "2024-01-05T19:25:57Z",
+    "platforms": {
+        "darwin-x86_64": {
+            "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRczJuRjg5SkN3NEZSMm5ycGQzYnlBK3BNSm4vREhaRzUzempsOWwza1Q4djBDRHRPYW1CZFNWRFowelhMb0c5Qi9QeFlIVFBvNXdZcXJnaW1QWWRYaVlUUVNvejQrUXdzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzA0MzM3NzYzCWZpbGU6SmVycnlUb29sc18wLjEuMV94NjRfemgtQ04ubXNpLnppcApIdUJGZmI0N2lDNVZuY0NlWFJxTVYxd0FvbzlhZ21CZVZuczV2T056NkJQaFBzcHZGRTJYaTYydkd3YnBKVThCRXIrUjhnU056RnQ1S0ZBWHU0cHlDQT09Cg==",
+            "url": "https://github.com/Hope-Jerry/JerryTools/releases/download/v0.6.1/JerryTools_0.1.1_x64_zh-CN.msi.zip"
+        },
+        "darwin-aarch64": {
+            "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRczJuRjg5SkN3NEZSMm5ycGQzYnlBK3BNSm4vREhaRzUzempsOWwza1Q4djBDRHRPYW1CZFNWRFowelhMb0c5Qi9QeFlIVFBvNXdZcXJnaW1QWWRYaVlUUVNvejQrUXdzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzA0MzM3NzYzCWZpbGU6SmVycnlUb29sc18wLjEuMV94NjRfemgtQ04ubXNpLnppcApIdUJGZmI0N2lDNVZuY0NlWFJxTVYxd0FvbzlhZ21CZVZuczV2T056NkJQaFBzcHZGRTJYaTYydkd3YnBKVThCRXIrUjhnU056RnQ1S0ZBWHU0cHlDQT09Cg==",
+            "url": "https://github.com/Hope-Jerry/JerryTools/releases/download/v0.6.1/JerryTools_0.1.1_x64_zh-CN.msi.zip"
+        },
+        "linux-x86_64": {
+            "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRczJuRjg5SkN3NEZSMm5ycGQzYnlBK3BNSm4vREhaRzUzempsOWwza1Q4djBDRHRPYW1CZFNWRFowelhMb0c5Qi9QeFlIVFBvNXdZcXJnaW1QWWRYaVlUUVNvejQrUXdzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzA0MzM3NzYzCWZpbGU6SmVycnlUb29sc18wLjEuMV94NjRfemgtQ04ubXNpLnppcApIdUJGZmI0N2lDNVZuY0NlWFJxTVYxd0FvbzlhZ21CZVZuczV2T056NkJQaFBzcHZGRTJYaTYydkd3YnBKVThCRXIrUjhnU056RnQ1S0ZBWHU0cHlDQT09Cg==",
+            "url": "https://github.com/Hope-Jerry/JerryTools/releases/download/v0.6.0/JerryTools_0.1.0_x64_zh-CN.msi.zip"
+        },
+        "windows-x86_64": {
+            "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRczJuRjg5SkN3NENhdEJiMEpvU3B0eGVhdnk3eE5udXFvQ3JhL2k3NkxRNjI1WWxsSzIxM2o3N3ZiZzBKZnowcEtJdld2ZE9ZU2pSeDU3Vys3ZjE3TjYrbkp1amtuWFE4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzA0NDQ5MjA2CWZpbGU6SmVycnlUb29sc18wLjYuOF94NjRfemgtQ04ubXNpLnppcApQRERpMlF5a0Vab2hzM1ZaY2d0aDN4ZktmMVJZd2p0eHpra21mTjFHWXQ3VjY0VFlMMzluNXBLSEFEaWZHZmJDWHh1MXBPZXZuNWxCNUVDNmIwM01Ddz09Cg==",
+            "url": "https://github.com/Hope-Jerry/JerryTools/releases/download/v0.6.8/JerryTools_0.6.8_x64_zh-CN.msi.zip"
+        }
+    }
+}

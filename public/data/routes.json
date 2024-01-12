@@ -1,0 +1,115 @@
+{
+    "statusCode": 200,
+    "message": "数据加载成功",
+    "data": {
+        "pages": [
+            {
+                "id": "0-1",
+                "label": "个人中心",
+                "icon": "",
+                "path": "/user/userInfo",
+                "component": "/user/page-userinfo"
+            }
+        ],
+        "menus": [
+            {
+                "id": "2",
+                "label": "快捷方式",
+                "icon": "Sunrise",
+                "path": "/shortcut/mi",
+                "component": "/shortcut/shortcut-mi"
+            },
+            {
+                "id": "100",
+                "label": "开发工具",
+                "icon": "Dish",
+                "children": [
+                    {
+                        "id": "100-1",
+                        "label": "JSON编辑器",
+                        "icon": "Lollipop",
+                        "path": "/compiler/json",
+                        "component": "/compiler/json/json"
+                    },
+                    {
+                        "id": "100-4",
+                        "label": "二维码",
+                        "icon": "Orange",
+                        "path": "/jieshao",
+                        "component": "/page-jieshao"
+                    },
+                    {
+                        "id": "100-5",
+                        "label": "颜色选择器",
+                        "icon": "Apple",
+                        "path": "/jieshao",
+                        "component": "/page-jieshao"
+                    }
+                ]
+            },
+            {
+                "id": "10",
+                "label": "仪表盘",
+                "icon": "Menu",
+                "children": [
+                    {
+                        "id": "1-4",
+                        "label": "常见示例",
+                        "icon": "Files",
+                        "children": [
+                            {
+                                "id": "1-4-1",
+                                "label": "富文本编辑器",
+                                "icon": "Edit",
+                                "path": "/example/editor",
+                                "component": "/example/page-editor"
+                            },
+                            {
+                                "id": "1-4-2",
+                                "label": "MarkDown编辑器",
+                                "icon": "Edit",
+                                "path": "/example/markdown",
+                                "component": "/example/page-markdown"
+                            },
+                            {
+                                "id": "1-4-3",
+                                "label": "图片裁剪工具",
+                                "icon": "Picture",
+                                "path": "/example/img-cutter",
+                                "component": "/example/page-img-cutter"
+                            },
+                            {
+                                "id": "1-4-4",
+                                "label": "商品单规格",
+                                "icon": "Tickets",
+                                "path": "/example/sku-single",
+                                "component": "/example/page-sku-single"
+                            },
+                            {
+                                "id": "1-4-5",
+                                "label": "商品分类管理",
+                                "icon": "Memo",
+                                "path": "/example/shop-type",
+                                "component": "/example/page-shop-type"
+                            },
+                            {
+                                "id": "1-4-6",
+                                "label": "首页管理",
+                                "icon": "House",
+                                "path": "/example/index-manager",
+                                "component": "/example/page-index-manager"
+                            },
+                            {
+                                "id": "1-4-7",
+                                "label": "商品管理",
+                                "icon": "Goods",
+                                "path": "/example/goods-manager",
+                                "component": "/example/page-goods-manager"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

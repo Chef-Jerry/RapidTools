@@ -1,0 +1,58 @@
+{
+  "name": "vue-cron-generator",
+  "description": "a project using vue,element-ui to generate cron expression",
+  "version": "0.2.4",
+  "author": "ldang264 <820704815@qq.com>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "dev": "vue-cli-service serve --open",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "lint-fix": "eslint --fix --ext .js --ext .jsx --ext .vue src",
+    "test:unit": "vue-cli-service test:unit",
+    "test:e2e": "vue-cli-service test:e2e"
+  },
+  "lint-staged": {
+    "*.js": [
+      "vue-cli-service lint",
+      "git add"
+    ],
+    "*.vue": [
+      "vue-cli-service lint",
+      "git add"
+    ]
+  },
+  "keywords": [
+    "vue",
+    "element-ui",
+    "i18n",
+    "cron",
+    "crontab"
+  ],
+  "dependencies": {
+    "core-js": "3.6.5",
+    "element-ui": "2.13.2",
+    "vue": "2.6.11",
+    "vue-i18n": "8.15.3"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ],
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "4.4.4",
+    "@vue/cli-plugin-eslint": "4.4.4",
+    "@vue/cli-plugin-unit-jest": "4.4.4",
+    "@vue/cli-service": "4.4.4",
+    "@vue/test-utils": "1.0.0-beta.29",
+    "axios": "0.26.0",
+    "babel-eslint": "10.1.0",
+    "babel-plugin-dynamic-import-node": "2.3.3",
+    "eslint": "6.7.2",
+    "eslint-plugin-vue": "6.2.2",
+    "lint-staged": "8.1.5",
+    "vue-template-compiler": "2.6.11"
+  }
+}

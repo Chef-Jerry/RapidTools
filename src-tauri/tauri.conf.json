@@ -1,0 +1,87 @@
+{
+  "build": {
+    "beforeBuildCommand": "npm run build",
+    "beforeDevCommand": "npm run dev",
+    "devPath": "http://localhost:5173",
+    "distDir": "../docs"
+  },
+  "package": {
+    "productName": "RapidTools",
+    "version": "0.6.8"
+  },
+  "tauri": {
+    "allowlist": {
+      "all": true,
+      "http": {
+        "scope": [
+          "http://**",
+          "https://**"
+        ]
+      },
+      "shell": {
+        "all": false,
+        "open": true
+      }
+    },
+    "bundle": {
+      "active": true,
+      "category": "DeveloperTool",
+      "copyright": "",
+      "deb": {
+        "depends": []
+      },
+      "externalBin": [],
+      "icon": [
+        "icons/icon.ico"
+      ],
+      "identifier": "com.rapid.tools",
+      "longDescription": "",
+      "macOS": {
+        "entitlements": null,
+        "exceptionDomain": "",
+        "frameworks": [],
+        "providerShortName": null,
+        "signingIdentity": null
+      },
+      "resources": [],
+      "shortDescription": "",
+      "targets": "all",
+      "windows": {
+        "certificateThumbprint": null,
+        "digestAlgorithm": "sha256",
+        "timestampUrl": "",
+        "wix": {
+          "language": "zh-CN"
+        }
+      }
+    },
+    "security": {
+      "csp": null
+    },
+    "updater": {
+      "active": true,
+      "endpoints": [
+        "https://raw.githubusercontent.com/Hope-Jerry/JerryTools/main/update/update.json"
+      ],
+      "dialog": true,
+      "pubkey": "dW50cnVzdGVkIGNvbW1lbnQ6IG1pbmlzaWduIHB1YmxpYyBrZXk6IEUwQjA5MEY0N0M3MURBMkMKUldRczJuRjg5SkN3NEgydTU0VGl3c2ZLTHNHcHRMWndjUEJJYWplUE5BNkJtSy9JYnNPT3pzVXkK",
+      "windows": {
+        "installMode": "passive"
+      }
+    },
+    "windows": [
+      {
+        "fullscreen": false,
+        "height": 800,
+        "resizable": true,
+        "title": "RapidTools",
+        "width": 1000,
+        "decorations":false
+      }
+    ],
+    "systemTray":{
+      "iconPath": "./icons/icon.ico",
+      "iconAsTemplate": true
+    }
+  }
+}
