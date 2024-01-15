@@ -4,8 +4,8 @@ use tauri::{CustomMenuItem, SystemTrayMenu, SystemTrayMenuItem, AppHandle, Syste
 
 pub fn init_tary(system_tray: SystemTray) -> SystemTray{
     //创建菜单
-    let quit = CustomMenuItem::new("quit".to_string(), "Quit");
-    let hide = CustomMenuItem::new("hide".to_string(), "Hide");
+    let quit = CustomMenuItem::new("quit".to_string(), "退出");
+    let hide = CustomMenuItem::new("hide".to_string(), "隐藏");
     let tray_menu = SystemTrayMenu::new()
         .add_item(hide)
         .add_native_item(SystemTrayMenuItem::Separator)

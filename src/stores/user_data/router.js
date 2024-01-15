@@ -50,6 +50,13 @@ export const menu_list = {
                     "icon": "Apple",
                     "path": "/regexper_cy",
                     "component": "/compiler/regexper_cy/regexper_cy"
+                },
+                {
+                    "id": "100-8",
+                    "label": i18n.global.t("menus.crypto"),
+                    "icon": "Apple",
+                    "path": "/crypto_jerry",
+                    "component": "/compiler/crypto_jerry/crypto_jerry"
                 }
             ]
         },

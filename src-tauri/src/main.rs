@@ -1,13 +1,16 @@
 // Prevents additional console window on Windows in release, DO NOT REMOVE!!
 #![cfg_attr(not(debug_assertions), windows_subsystem = "windows")]
 mod tray;
+mod utils;
 use tauri::{SystemTray,GlobalShortcutManager, Manager};
 use tray::{init_tary, system_tray_loop};
+use utils::{md5_utils::jerry_md5,sha_utils::{jerry_sha1,jerry_sha2,jerry_sha3}};
 
 fn main() {
     //初始化托盘
     let system_tray = SystemTray::new();
     tauri::Builder::default()
+        .invoke_handler(tauri::generate_handler![jerry_md5,jerry_sha1,jerry_sha2,jerry_sha3])
         .system_tray(init_tary(system_tray))
         .on_system_tray_event(system_tray_loop)
         .setup(|app| {

@@ -12,6 +12,7 @@ export default {
         qrcode:"二维码",
         cronSelect:"cron表达式",
         regexper:"常用正则",
+        crypto:"加密解密",
 
         system:"系统设置",
         systemShortcut:"快捷键设置"
