@@ -68,6 +68,10 @@ jobs:
         if: matrix.platform == 'ubuntu-20.04'
         run: ls src-tauri/target/release/bundle/appimage
 
+      - name: ubuntu ls appimage_deb
+        if: matrix.platform == 'ubuntu-20.04'
+        run: ls src-tauri/target/release/bundle/appimage_deb
+
       - name: dmg ls
         if: matrix.platform == 'macos-latest'
         run: ls src-tauri/target/release/bundle/dmg
